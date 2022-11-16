@@ -7,12 +7,12 @@ public class Bilde extends Tekst {
 	protected String url;
 	
 	public Bilde(int id, String bruker, String dato, String tekst, String url) {
-		super();
+		super(id, bruker, dato, tekst);
 		this.url = url;
 	}
 
 	public Bilde(int id, String bruker, String dato, int likes, String tekst, String url) {
-		super();
+		super(id, bruker, dato, likes, tekst);
 		this.url = url;
 	}
 	
